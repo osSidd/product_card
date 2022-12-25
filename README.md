@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [code](https://github.com/osSidd/product_card)
-- Live Site URL: [Live](https://ossidd.github.io/product_card/)
+- Solution URL: [https://github.com/osSidd/product_card](https://github.com/osSidd/product_card)
+- Live Site URL: [https://ossidd.github.io/product_card/](https://ossidd.github.io/product_card/)
 
 ## My process
 
