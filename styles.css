@@ -15,8 +15,9 @@ body{
 
 .outer-container{
 	display:flex;
-	width:50%;
-	margin:5% auto;
+	align-items:space-between;
+	width:600px;
+	margin:10% auto;
 	background:#fff;
 	border-radius:12px;
 }
@@ -25,10 +26,12 @@ body{
 	width:50%;
 	border-top-left-radius:12px;
 	border-bottom-left-radius:12px;
+	filter:brightness(93%);
 }
 
 .text-container{
-	margin:0 2rem;
+	width:50%;
+	margin:0 2.5rem 0 2rem;
 }
 
 .text-container p{
@@ -36,8 +39,20 @@ body{
 	color:var(--dark-blue);
 }
 
+.category{
+	letter-spacing:5px;
+	margin-top:2rem;
+}
+
 .title{
 	font-family: 'Fraunces', serif;
+	color: hsl(212, 21%, 14%);
+	line-height:2rem;
+}
+
+.description{
+	line-height:1.5rem;
+	margin-bottom:1.5rem;
 }
 
 .price span:first-child{
@@ -48,7 +63,7 @@ body{
 
 .price span:last-child{
 	margin-left:1rem;
-	vertical-align:middle;
+	vertical-align:5px;
 	text-decoration:line-through;
 	color:var(--dark-blue);
 }
@@ -58,7 +73,7 @@ body{
 	background:hsl(158, 36%, 37%);
 	color:#fff;
 	width:100%;
-	margin:2rem 0;
+	margin:1.75rem 0 0 0;
 	padding:0.75rem 0;
 	border-radius:8px;
 	font-size:14px;
