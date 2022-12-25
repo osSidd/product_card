@@ -114,5 +114,9 @@ picture{
 	vertical-align:middle;
 }
 
+.cart-btn:focus{
+	background:hsl(125, 22%, 22%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
