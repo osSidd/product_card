@@ -15,15 +15,26 @@ body{
 
 .outer-container{
 	display:flex;
-	align-items:space-between;
 	width:600px;
 	margin:10% auto;
 	background:#fff;
 	border-radius:12px;
 }
 
-.product-img{
+@media(max-width:375px){
+	.outer-container{
+		width:95%;
+		flex-direction:column;
+	}
+}
+
+picture{
 	width:50%;
+}
+
+.product-img{
+	max-width:100%;
+	min-height:100%;
 	border-top-left-radius:12px;
 	border-bottom-left-radius:12px;
 	filter:brightness(93%);
@@ -31,7 +42,23 @@ body{
 
 .text-container{
 	width:50%;
-	margin:0 2.5rem 0 2rem;
+	max-width:100%;
+	padding:0 2rem 2rem 2rem;
+}
+
+@media(max-width:375px){
+	picture{
+		width:100%;
+	}
+	
+	.product-img{
+		border-top-right-radius:12px;
+		border-bottom-left-radius:0;
+	}
+	
+	.text-container{
+		width:100%;
+	}
 }
 
 .text-container p{

@@ -14,7 +14,10 @@
 </head>
 <body>
 	<div class="outer-container">
-		<img src="./images/image-product-desktop.jpg" alt="product" class="product-img"/>
+		<picture>
+			<source media="(max-width:375px)" srcset="./images/image-product-mobile.jpg">
+			<img src="./images/image-product-desktop.jpg" alt="product" class="product-img"/>
+		</picture>
 		<div class="text-container">
 		 	<p class="category">PERFUME</p>
 
