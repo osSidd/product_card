@@ -11,12 +11,14 @@ html{
 body{
 	background:hsl(30, 38%,92%);
 	font-family: 'Montserrat', sans-serif;
+	display:grid;
+	place-items:center;
 }
 
 .outer-container{
 	display:flex;
 	width:600px;
-	margin:10% auto;
+	margin-bottom:2rem;
 	background:#fff;
 	border-radius:12px;
 }
